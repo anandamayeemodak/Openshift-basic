@@ -4,7 +4,7 @@ import random
 
 app = FastAPI()
 
-@app.get("/home")
+@app.get("/")
 async def baseRoute():
     print("Request to baseRoute(home)")
     id = random.randint(1,100)
